@@ -1,0 +1,374 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1639700912
+!i10b 1
+!s100 S;bebH3OLHzQ@d^1a3f<E3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ia`RFSFWIa69mHSh`>R[OM1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1639563643
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+!i122 174
+L0 1 75
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1639700912.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor
+Z7 tCvgOpt 0
+n@a@l@u
+vcontroller
+R1
+Z8 !s110 1639700913
+!i10b 1
+!s100 MYJ3BAQXzG61=AI>VzPWb0
+R2
+IdBAc^>h[E;R4lU985e`Xm3
+R3
+S1
+R0
+w1639685629
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+!i122 175
+L0 1 42
+R4
+r1
+!s85 0
+31
+Z9 !s108 1639700913.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv|
+!i113 1
+R5
+R6
+R7
+vdatamem
+R1
+R8
+!i10b 1
+!s100 BNUe25`ZUQ84C_ToC<ePV1
+R2
+IF9AWD`c]_Tmbf^m@AX3_L0
+R3
+S1
+R0
+w1639675060
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+!i122 176
+L0 1 18
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv|
+!i113 1
+R5
+R6
+R7
+vdecoder
+R1
+R8
+!i10b 1
+!s100 ?>9=R2GIH=YUh:GEo73iJ0
+R2
+I@`IZComk1^OZJo9SN_hlH1
+R3
+S1
+R0
+w1639566638
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+!i122 177
+L0 1 45
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv|
+!i113 1
+R5
+R6
+R7
+vflags
+R1
+R8
+!i10b 1
+!s100 hW]DI<GH523PYB^l=h;4O0
+R2
+IZ_>SPc6>>E`;9MiiRf]h73
+R3
+S1
+R0
+w1637104188
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv
+!i122 178
+L0 1 13
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv|
+!i113 1
+R5
+R6
+R7
+vincrementor
+R1
+Z10 !s110 1639700914
+!i10b 1
+!s100 Y0h8Jj]6N^2RBjR?XU1gD0
+R2
+IBHTzm@O6>bEcOScC0EHo>2
+R3
+S1
+R0
+w1639644871
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv
+!i122 179
+L0 1 8
+R4
+r1
+!s85 0
+31
+Z11 !s108 1639700914.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv|
+!i113 1
+R5
+R6
+R7
+vinstrmem
+R1
+R10
+!i10b 1
+!s100 M2dTac7cLEzTa=cE9e@bG3
+R2
+I6GW>WBEJQ0M0i:B4Y0W?<3
+R3
+S1
+R0
+w1639700862
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+!i122 180
+L0 1 116
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv|
+!i113 1
+R5
+R6
+R7
+vmux_2x1
+R1
+R10
+!i10b 1
+!s100 E6WclU5?;;;TN7iHSQDce0
+R2
+IY9DoM^IF:z6:JP8e`PUIE2
+R3
+S1
+R0
+w1637695426
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+!i122 181
+Z12 L0 1 9
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv|
+!i113 1
+R5
+R6
+R7
+vmux_3x1
+R1
+R10
+!i10b 1
+!s100 5Ylo5aP8fSO5hVgAQ:D<40
+R2
+IE]=Ejb?O8>?6ghCNSfJ[H0
+R3
+S1
+R0
+w1639339088
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+!i122 182
+R12
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv|
+!i113 1
+R5
+R6
+R7
+vregister_file
+R1
+Z13 !s110 1639700915
+!i10b 1
+!s100 @Pi4nk3=E;T]l1^2o^_dX3
+R2
+I8h?5:iNoW`EEzeKD3LUGN2
+R3
+S1
+R0
+w1639690051
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+!i122 183
+L0 1 46
+R4
+r1
+!s85 0
+31
+Z14 !s108 1639700915.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv|
+!i113 1
+R5
+R6
+R7
+vshifter
+R1
+R13
+!i10b 1
+!s100 n9@>8eS@TG1_Fd:mE:=fm1
+R2
+IQZCG61OZk>LVGAX]cAeSe1
+R3
+S1
+R0
+w1637692406
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+!i122 184
+L0 1 53
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv|
+!i113 1
+R5
+R6
+R7
+vtb
+R13
+!i10b 1
+!s100 ?Azi?l6Y@<R?PfeDOSJ;82
+R2
+Ijm7X6e]GZWgmiZWa_KAf73
+R3
+R0
+w1639685746
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v
+!i122 185
+R12
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor
+R7
+vtop
+R1
+R13
+!i10b 1
+!s100 NnBUN10<1oLTFGCkL7MO52
+R2
+I2KJ=ZZGIYgQ;QdDA]=b^m0
+R3
+S1
+R0
+w1639690155
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+!i122 186
+L0 1 214
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv|
+!i113 1
+R5
+R6
+R7
+vzero_concatenator
+R1
+!s110 1639700916
+!i10b 1
+!s100 KQmWiRJGH268891oRl8CC2
+R2
+IDg[zZB<0IR5V>Rl[GE>Dh1
+R3
+S1
+R0
+w1637104092
+8C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv
+FC:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv
+!i122 187
+L0 1 17
+R4
+r1
+!s85 0
+31
+!s108 1639700916.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor|C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv|
+!i113 1
+R5
+R6
+R7

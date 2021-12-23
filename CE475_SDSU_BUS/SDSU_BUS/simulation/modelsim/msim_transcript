@@ -1,0 +1,470 @@
+# Reading pref.tcl
+# do sdsu_bus_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS {C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:31 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 16:48:32 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS {C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:35 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 16:48:35 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS {C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:35 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 16:48:35 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.master
+# vsim work.master 
+# Start time: 16:55:00 on Nov 02,2021
+# Loading work.master
+# Loading work.slave
+# Loading work.multiplier
+do C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/simulation/modelsim/wave.do
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:57:17 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 16:57:17 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.multiplier
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:03:12 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:03:12 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.multiplier
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/sum'. 
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:04:01 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:04:02 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.multiplier
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:04:24 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:04:24 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:04:41 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:04:41 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.multiplier
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:58 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:23:58 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:59 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:24:00 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:24:03 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:24:03 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+# Loading work.slave
+# Loading work.multiplier
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/A'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/B'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/a'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/b'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/result'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/ready'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/master/s/AB/i'. 
+run
+run
+run
+do C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/simulation/modelsim/wave.do
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/reset'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 12
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/A'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 13
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/B'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 14
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/a'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 15
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/b'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/sum'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 17
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/result'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 18
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/ready'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 19
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/i'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 22
+do C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/simulation/modelsim/wave.do
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/reset'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 12
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/A'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 13
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/B'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 14
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/a'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 15
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/b'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 16
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/sum'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 17
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/result'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 18
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/ready'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 19
+# ** UI-Msg: (vish-4014) No objects found matching '/master/s/AB/i'.
+# Executing ONERROR command at macro C:\Users\ninom\OneDrive\Desktop\CE475\SDSU_BUS\simulation\modelsim\wave.do line 22
+add wave -position insertpoint  \
+sim:/master/s/m/result \
+sim:/master/s/m/ready \
+sim:/master/s/m/i \
+sim:/master/s/m/b \
+sim:/master/s/m/a
+restart
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:48 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:26:49 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:28:09 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:28:09 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+run
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:29:56 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:29:56 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:46 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:31:46 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:48 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:31:48 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:51 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:31:51 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+# Loading work.slave
+# Loading work.multiplier
+run
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:37 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# ** Error: (vlog-13069) C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v(7): near "output": syntax error, unexpected output, expecting ')'.
+# End time: 17:33:37 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:39 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:33:39 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:44 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# ** Error: (vlog-13069) C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v(7): near "output": syntax error, unexpected output, expecting ')'.
+# End time: 17:33:44 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vlog failed.
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:57 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:33:58 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:01 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:34:01 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:02 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:34:03 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+# Loading work.slave
+# Loading work.multiplier
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:33 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:34:33 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:37 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:34:37 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+# Loading work.slave
+run
+run
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:35:16 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:35:16 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:35:20 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:35:20 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+# Loading work.slave
+run
+run
+run
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:35:44 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v 
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# End time: 17:35:45 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:35:47 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v 
+# -- Compiling module slave
+# 
+# Top level modules:
+# 	slave
+# End time: 17:35:47 on Nov 02,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:35:49 on Nov 02,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS" C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v 
+# -- Compiling module master
+# 
+# Top level modules:
+# 	master
+# End time: 17:35:50 on Nov 02,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# Loading work.master
+# Loading work.slave
+# Loading work.multiplier
+run
+run
+run
+run
+# End time: 17:37:56 on Nov 02,2021, Elapsed time: 0:42:56
+# Errors: 0, Warnings: 0

@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/simulation/modelsim
+vmaster
+!s110 1635860150
+!i10b 1
+!s100 LdC7:8ETZdJ9=J^n`O@O83
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7SkHk;NS5Dg[WWk9hGW<I1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1635859942
+8C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+FC:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v
+!i122 27
+L0 1 33
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1635860149.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS|C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/master.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS
+Z6 tCvgOpt 0
+vmultiplier
+!s110 1635860145
+!i10b 1
+!s100 I4@G051QzKPlN3O:?jLK[1
+R1
+I;?D;<MMilCmXS<ceS[G^R3
+R2
+R0
+w1635860032
+8C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+FC:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v
+!i122 25
+L0 1 34
+R3
+r1
+!s85 0
+31
+!s108 1635860144.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS|C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v|
+!i113 1
+R4
+R5
+R6
+vslave
+!s110 1635860147
+!i10b 1
+!s100 EQE_`z9:0oHk0PMP=e:8n3
+R1
+I7P9KEiO_?6`[4c?QOjoG>3
+R2
+R0
+w1635860139
+8C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+FC:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v
+!i122 26
+L0 1 49
+R3
+r1
+!s85 0
+31
+!s108 1635860147.000000
+!s107 C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS|C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/slave.v|
+!i113 1
+R4
+R5
+R6

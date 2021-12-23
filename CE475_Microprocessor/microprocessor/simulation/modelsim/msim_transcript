@@ -1,0 +1,2212 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do single-cycle-arm-microprocessor_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:42 on Dec 16,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 22:59:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:45 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 22:59:45 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:45 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv 
+# -- Compiling module zero_concatenator
+# 
+# Top level modules:
+# 	zero_concatenator
+# End time: 22:59:45 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:45 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 22:59:46 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:46 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 22:59:46 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:46 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 22:59:47 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:47 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 22:59:47 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:47 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv 
+# -- Compiling module flags
+# 
+# Top level modules:
+# 	flags
+# End time: 22:59:47 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:47 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 22:59:48 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:48 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 22:59:48 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:48 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 22:59:48 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:48 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 22:59:49 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:49 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv 
+# -- Compiling module incrementor
+# 
+# Top level modules:
+# 	incrementor
+# End time: 22:59:49 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor {C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:59:49 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 22:59:49 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.tb
+# vsim work.tb 
+# Start time: 22:59:56 on Dec 16,2021
+# Loading work.tb
+# Loading sv_std.std
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.flags
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.zero_concatenator
+# Loading work.incrementor
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+do C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/simulation/modelsim/wave.do
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:15:00 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:15:00 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:15:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:15:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:15:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:15:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:15:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:15:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:15:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:15:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.instrmem
+# Loading work.datamem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:21:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:21:43 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:21:43 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:21:43 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:21:43 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.instrmem
+# Loading work.datamem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:55 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:23:55 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:55 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:23:56 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:56 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:23:56 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:56 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:23:56 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:56 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:23:56 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:56 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:23:57 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:57 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:23:57 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:57 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:23:57 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:57 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:23:57 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:23:57 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:23:58 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:25:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:25:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:25:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:25:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:25:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:25:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:25:03 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:03 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:25:03 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:03 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:25:03 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:25:03 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:25:03 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:09 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:26:09 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:09 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:26:09 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:26:10 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:26:10 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:26:10 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:26:11 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:11 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:26:11 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:11 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:26:11 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:11 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:26:11 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:11 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:26:11 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:39 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:28:40 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:40 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:28:40 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:40 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:28:40 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:41 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:28:41 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:41 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:28:41 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:41 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:28:41 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:41 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:28:42 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:28:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:28:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:28:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:28:43 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:23 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:30:24 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:24 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:30:24 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:24 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:30:24 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:24 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:30:24 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:24 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:30:25 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:25 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:30:25 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:25 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:30:25 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:25 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:30:25 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:25 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:30:25 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:26 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:30:26 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:13 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:32:13 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:13 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:32:13 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:13 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:32:14 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:14 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:32:14 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:14 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:32:14 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:14 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:32:14 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:14 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:32:15 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:15 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:32:15 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:15 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:32:15 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:15 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:32:15 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:08 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:33:08 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:08 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:33:08 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:08 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:33:09 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:09 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:33:09 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:09 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:33:09 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:09 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:33:10 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:33:10 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:33:10 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:10 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:33:11 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:11 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:33:11 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:41 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:33:42 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:33:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:33:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:42 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:33:42 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:33:43 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:33:43 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:33:43 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:43 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:33:44 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:44 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:33:44 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:33:44 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:33:44 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:35 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:39:36 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:36 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:39:36 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:36 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:39:36 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:36 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:39:37 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:37 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:39:37 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:37 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:39:38 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:38 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:39:38 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:38 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:39:38 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:39 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:39:39 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:39 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:39:39 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:47 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:41:47 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:47 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:41:48 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:48 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:41:48 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:48 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:41:48 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:48 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:41:49 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:49 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:41:49 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:49 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:41:50 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:50 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:41:50 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:50 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:41:51 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:51 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:41:51 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:57:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:57:01 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:01 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:57:02 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:57:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:57:02 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:02 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:57:03 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:03 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:57:03 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:03 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:57:03 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:03 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:57:03 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:04 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:57:04 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:35 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 23:57:35 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:35 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 23:57:35 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:36 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 23:57:36 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:36 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 23:57:36 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:36 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 23:57:37 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:37 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 23:57:37 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:37 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 23:57:38 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:38 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 23:57:38 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:38 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 23:57:39 on Dec 16,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:57:39 on Dec 16,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 23:57:39 on Dec 16,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:32 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 00:01:32 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:32 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:01:33 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 00:01:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 00:01:34 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:34 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 00:01:34 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:34 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 00:01:34 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:35 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 00:01:35 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:35 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 00:01:35 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:36 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 00:01:36 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:36 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:01:36 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:28 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 00:05:29 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:29 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:05:29 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:29 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 00:05:30 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:30 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 00:05:30 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:30 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 00:05:31 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:31 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 00:05:31 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:32 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 00:05:32 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:32 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 00:05:32 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 00:05:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:05:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:18 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 00:07:18 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:18 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 00:07:19 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:19 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 00:07:19 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:19 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 00:07:20 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:20 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 00:07:21 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:21 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 00:07:22 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:22 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 00:07:22 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:22 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 00:07:23 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:23 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 00:07:24 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:07:24 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 00:07:25 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 's_generate_flags_in'. The port definition is at: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/cpu_top/controller_inst File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv Line: 75
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:32 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_alu.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 04:28:32 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 04:28:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/data_memory.sv 
+# -- Compiling module datamem
+# 
+# Top level modules:
+# 	datamem
+# End time: 04:28:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_decoder.sv 
+# -- Compiling module decoder
+# 
+# Top level modules:
+# 	decoder
+# End time: 04:28:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:33 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/flags.sv 
+# -- Compiling module flags
+# 
+# Top level modules:
+# 	flags
+# End time: 04:28:33 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:34 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/incrementor.sv 
+# -- Compiling module incrementor
+# 
+# Top level modules:
+# 	incrementor
+# End time: 04:28:34 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:34 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/instruction_memory.sv 
+# -- Compiling module instrmem
+# 
+# Top level modules:
+# 	instrmem
+# End time: 04:28:34 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:34 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_2X1.sv 
+# -- Compiling module mux_2x1
+# 
+# Top level modules:
+# 	mux_2x1
+# End time: 04:28:34 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:34 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/mux_3x1.sv 
+# -- Compiling module mux_3x1
+# 
+# Top level modules:
+# 	mux_3x1
+# End time: 04:28:34 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:35 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/regfile.sv 
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# End time: 04:28:35 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:35 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 04:28:35 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -vlog01compat -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:35 on Dec 17,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/tb.v 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 04:28:35 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:35 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 04:28:35 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -sv -work work +incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:28:36 on Dec 17,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor" C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv 
+# -- Compiling module zero_concatenator
+# 
+# Top level modules:
+# 	zero_concatenator
+# End time: 04:28:36 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.top
+# Loading work.controller
+# Loading work.register_file
+# Loading work.shifter
+# Loading work.ALU
+# Loading work.flags
+# Loading work.instrmem
+# Loading work.datamem
+# Loading work.decoder
+# Loading work.zero_concatenator
+# Loading work.incrementor
+# Loading work.mux_2x1
+# Loading work.mux_3x1
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/tb/cpu_top/clk
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/simulation/modelsim/wave.do
+restart
+run
+run
+run
+run
+run
+run
+# End time: 05:41:07 on Dec 17,2021, Elapsed time: 6:41:11
+# Errors: 0, Warnings: 0

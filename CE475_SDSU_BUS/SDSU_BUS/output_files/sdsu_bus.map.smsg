@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at multiplier.v(3): object "A" differs only in case from object "a" in the same scope File: C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v Line: 3
+Info (10281): Verilog HDL Declaration information at multiplier.v(3): object "B" differs only in case from object "b" in the same scope File: C:/Users/ninom/OneDrive/Desktop/CE475/SDSU_BUS/multiplier.v Line: 3

@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at zero_concatenator.sv(13): extended using "x" or "z" File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/zero_concatenator.sv Line: 13
+Warning (10268): Verilog HDL information at cpu_shifter.sv(21): always construct contains both blocking and non-blocking assignments File: C:/Users/ninom/OneDrive/Desktop/CE475/microprocessor/cpu_shifter.sv Line: 21

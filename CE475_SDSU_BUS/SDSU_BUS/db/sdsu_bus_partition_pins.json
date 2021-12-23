@@ -1,0 +1,317 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "RData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[10]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[11]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[12]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[13]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[14]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[15]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[16]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[17]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[18]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[19]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[20]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[21]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[22]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[23]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[24]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[25]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[26]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[27]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[28]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[29]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[30]",
+					"strict" : false
+				},
+				{
+					"name" : "RData[31]",
+					"strict" : false
+				},
+				{
+					"name" : "ready",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "valid",
+					"strict" : false
+				},
+				{
+					"name" : "RAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "RAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "RAddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "RAddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "WAddr[1]",
+					"strict" : false
+				},
+				{
+					"name" : "WAddr[0]",
+					"strict" : false
+				},
+				{
+					"name" : "WAddr[2]",
+					"strict" : false
+				},
+				{
+					"name" : "WAddr[3]",
+					"strict" : false
+				},
+				{
+					"name" : "WAddr[4]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[0]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[23]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[24]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[25]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[26]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[27]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[28]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[17]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[18]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[19]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[20]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[21]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[22]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[11]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[12]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[13]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[14]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[15]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[16]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[5]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[6]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[7]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[8]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[9]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[10]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[1]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[2]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[3]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[4]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[29]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[30]",
+					"strict" : false
+				},
+				{
+					"name" : "WData[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
